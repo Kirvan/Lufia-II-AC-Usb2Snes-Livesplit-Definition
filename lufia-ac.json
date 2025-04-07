@@ -1,0 +1,634 @@
+{
+  "name": "Lufia II - Ancient Cave",
+  "autostart": {
+    "active": "1",
+    "address": "0x0054",
+    "value": "0x02",
+    "type": "eq",
+    "more": [
+      	{
+          "address" : "0x005A",
+          "value" : "0x04",
+          "type" : "eq"
+      	},
+        {
+          "address" : "0x0573",
+          "value" : "0x8C",
+          "type" : "eq"
+      	},
+        {
+          "address" : "0x0574",
+          "value" : "0x35",
+          "type" : "eq"
+      	},
+        {
+          "address" : "0x14AC",
+          "value" : "0x10",
+          "type" : "eq"
+      	}
+      ]
+  },
+  "definitions": [
+    {
+      "name": "Floor01",
+      "address": "0x0B75",
+      "value": "0x02",
+      "type": "eq"
+    },
+    {
+      "name": "Floor02",
+      "address": "0x0B75",
+      "value": "0x03",
+      "type": "eq"
+    },
+    {
+      "name": "Floor03",
+      "address": "0x0B75",
+      "value": "0x04",
+      "type": "eq"
+    },
+    {
+      "name": "Floor04",
+      "address": "0x0B75",
+      "value": "0x05",
+      "type": "eq"
+    },
+    {
+      "name": "Floor05",
+      "address": "0x0B75",
+      "value": "0x06",
+      "type": "eq"
+    },
+    {
+      "name": "Floor06",
+      "address": "0x0B75",
+      "value": "0x07",
+      "type": "eq"
+    },
+    {
+      "name": "Floor07",
+      "address": "0x0B75",
+      "value": "0x08",
+      "type": "eq"
+    },
+    {
+      "name": "Floor08",
+      "address": "0x0B75",
+      "value": "0x09",
+      "type": "eq"
+    },
+    {
+      "name": "Floor09",
+      "address": "0x0B75",
+      "value": "0x0A",
+      "type": "eq"
+    },
+    {
+      "name": "Floor10",
+      "address": "0x0B75",
+      "value": "0x0B",
+      "type": "eq"
+    },
+    {
+      "name": "Floor11",
+      "address": "0x0B75",
+      "value": "0x0C",
+      "type": "eq"
+    },
+    {
+      "name": "Floor12",
+      "address": "0x0B75",
+      "value": "0x0D",
+      "type": "eq"
+    },
+    {
+      "name": "Floor13",
+      "address": "0x0B75",
+      "value": "0x0E",
+      "type": "eq"
+    },
+    {
+      "name": "Floor14",
+      "address": "0x0B75",
+      "value": "0x0F",
+      "type": "eq"
+    },
+    {
+      "name": "Floor15",
+      "address": "0x0B75",
+      "value": "0x10",
+      "type": "eq"
+    },
+    {
+      "name": "Floor16",
+      "address": "0x0B75",
+      "value": "0x11",
+      "type": "eq"
+    },
+    {
+      "name": "Floor17",
+      "address": "0x0B75",
+      "value": "0x12",
+      "type": "eq"
+    },
+    {
+      "name": "Floor18",
+      "address": "0x0B75",
+      "value": "0x13",
+      "type": "eq"
+    },
+    {
+      "name": "Floor19",
+      "address": "0x0B75",
+      "value": "0x14",
+      "type": "eq"
+    },
+    {
+      "name": "Floor20",
+      "address": "0x0B75",
+      "value": "0x15",
+      "type": "eq"
+    },
+    {
+      "name": "Floor21",
+      "address": "0x0B75",
+      "value": "0x16",
+      "type": "eq"
+    },
+    {
+      "name": "Floor22",
+      "address": "0x0B75",
+      "value": "0x17",
+      "type": "eq"
+    },
+    {
+      "name": "Floor23",
+      "address": "0x0B75",
+      "value": "0x18",
+      "type": "eq"
+    },
+    {
+      "name": "Floor24",
+      "address": "0x0B75",
+      "value": "0x19",
+      "type": "eq"
+    },
+    {
+      "name": "Floor25",
+      "address": "0x0B75",
+      "value": "0x1A",
+      "type": "eq"
+    },
+    {
+      "name": "Floor26",
+      "address": "0x0B75",
+      "value": "0x1B",
+      "type": "eq"
+    },
+    {
+      "name": "Floor27",
+      "address": "0x0B75",
+      "value": "0x1C",
+      "type": "eq"
+    },
+    {
+      "name": "Floor28",
+      "address": "0x0B75",
+      "value": "0x1D",
+      "type": "eq"
+    },
+    {
+      "name": "Floor29",
+      "address": "0x0B75",
+      "value": "0x1E",
+      "type": "eq"
+    },
+    {
+      "name": "Floor30",
+      "address": "0x0B75",
+      "value": "0x1F",
+      "type": "eq"
+    },
+    {
+      "name": "Floor31",
+      "address": "0x0B75",
+      "value": "0x20",
+      "type": "eq"
+    },
+    {
+      "name": "Floor32",
+      "address": "0x0B75",
+      "value": "0x21",
+      "type": "eq"
+    },
+    {
+      "name": "Floor33",
+      "address": "0x0B75",
+      "value": "0x22",
+      "type": "eq"
+    },
+    {
+      "name": "Floor34",
+      "address": "0x0B75",
+      "value": "0x23",
+      "type": "eq"
+    },
+    {
+      "name": "Floor35",
+      "address": "0x0B75",
+      "value": "0x24",
+      "type": "eq"
+    },
+    {
+      "name": "Floor36",
+      "address": "0x0B75",
+      "value": "0x25",
+      "type": "eq"
+    },
+    {
+      "name": "Floor37",
+      "address": "0x0B75",
+      "value": "0x26",
+      "type": "eq"
+    },
+    {
+      "name": "Floor38",
+      "address": "0x0B75",
+      "value": "0x27",
+      "type": "eq"
+    },
+    {
+      "name": "Floor39",
+      "address": "0x0B75",
+      "value": "0x28",
+      "type": "eq"
+    },
+    {
+      "name": "Floor40",
+      "address": "0x0B75",
+      "value": "0x29",
+      "type": "eq"
+    },
+    {
+      "name": "Floor41",
+      "address": "0x0B75",
+      "value": "0x2A",
+      "type": "eq"
+    },
+    {
+      "name": "Floor42",
+      "address": "0x0B75",
+      "value": "0x2B",
+      "type": "eq"
+    },
+    {
+      "name": "Floor43",
+      "address": "0x0B75",
+      "value": "0x2C",
+      "type": "eq"
+    },
+    {
+      "name": "Floor44",
+      "address": "0x0B75",
+      "value": "0x2D",
+      "type": "eq"
+    },
+    {
+      "name": "Floor45",
+      "address": "0x0B75",
+      "value": "0x2E",
+      "type": "eq"
+    },
+    {
+      "name": "Floor46",
+      "address": "0x0B75",
+      "value": "0x2F",
+      "type": "eq"
+    },
+    {
+      "name": "Floor47",
+      "address": "0x0B75",
+      "value": "0x30",
+      "type": "eq"
+    },
+    {
+      "name": "Floor48",
+      "address": "0x0B75",
+      "value": "0x31",
+      "type": "eq"
+    },
+    {
+      "name": "Floor49",
+      "address": "0x0B75",
+      "value": "0x32",
+      "type": "eq"
+    },
+    {
+      "name": "Floor50",
+      "address": "0x0B75",
+      "value": "0x33",
+      "type": "eq"
+    },
+    {
+      "name": "Floor51",
+      "address": "0x0B75",
+      "value": "0x34",
+      "type": "eq"
+    },
+    {
+      "name": "Floor52",
+      "address": "0x0B75",
+      "value": "0x35",
+      "type": "eq"
+    },
+    {
+      "name": "Floor53",
+      "address": "0x0B75",
+      "value": "0x36",
+      "type": "eq"
+    },
+    {
+      "name": "Floor54",
+      "address": "0x0B75",
+      "value": "0x37",
+      "type": "eq"
+    },
+    {
+      "name": "Floor55",
+      "address": "0x0B75",
+      "value": "0x38",
+      "type": "eq"
+    },
+    {
+      "name": "Floor56",
+      "address": "0x0B75",
+      "value": "0x39",
+      "type": "eq"
+    },
+    {
+      "name": "Floor57",
+      "address": "0x0B75",
+      "value": "0x3A",
+      "type": "eq"
+    },
+    {
+      "name": "Floor58",
+      "address": "0x0B75",
+      "value": "0x3B",
+      "type": "eq"
+    },
+    {
+      "name": "Floor59",
+      "address": "0x0B75",
+      "value": "0x3C",
+      "type": "eq"
+    },
+    {
+      "name": "Floor60",
+      "address": "0x0B75",
+      "value": "0x3D",
+      "type": "eq"
+    },
+    {
+      "name": "Floor61",
+      "address": "0x0B75",
+      "value": "0x3E",
+      "type": "eq"
+    },
+    {
+      "name": "Floor62",
+      "address": "0x0B75",
+      "value": "0x3F",
+      "type": "eq"
+    },
+    {
+      "name": "Floor63",
+      "address": "0x0B75",
+      "value": "0x40",
+      "type": "eq"
+    },
+    {
+      "name": "Floor64",
+      "address": "0x0B75",
+      "value": "0x41",
+      "type": "eq"
+    },
+    {
+      "name": "Floor65",
+      "address": "0x0B75",
+      "value": "0x42",
+      "type": "eq"
+    },
+    {
+      "name": "Floor66",
+      "address": "0x0B75",
+      "value": "0x43",
+      "type": "eq"
+    },
+    {
+      "name": "Floor67",
+      "address": "0x0B75",
+      "value": "0x44",
+      "type": "eq"
+    },
+    {
+      "name": "Floor68",
+      "address": "0x0B75",
+      "value": "0x45",
+      "type": "eq"
+    },
+    {
+      "name": "Floor69",
+      "address": "0x0B75",
+      "value": "0x46",
+      "type": "eq"
+    },
+    {
+      "name": "Floor70",
+      "address": "0x0B75",
+      "value": "0x47",
+      "type": "eq"
+    },
+    {
+      "name": "Floor71",
+      "address": "0x0B75",
+      "value": "0x48",
+      "type": "eq"
+    },
+    {
+      "name": "Floor72",
+      "address": "0x0B75",
+      "value": "0x49",
+      "type": "eq"
+    },
+    {
+      "name": "Floor73",
+      "address": "0x0B75",
+      "value": "0x4A",
+      "type": "eq"
+    },
+    {
+      "name": "Floor74",
+      "address": "0x0B75",
+      "value": "0x4B",
+      "type": "eq"
+    },
+    {
+      "name": "Floor75",
+      "address": "0x0B75",
+      "value": "0x4C",
+      "type": "eq"
+    },
+    {
+      "name": "Floor76",
+      "address": "0x0B75",
+      "value": "0x4D",
+      "type": "eq"
+    },
+    {
+      "name": "Floor77",
+      "address": "0x0B75",
+      "value": "0x4E",
+      "type": "eq"
+    },
+    {
+      "name": "Floor78",
+      "address": "0x0B75",
+      "value": "0x4F",
+      "type": "eq"
+    },
+    {
+      "name": "Floor79",
+      "address": "0x0B75",
+      "value": "0x50",
+      "type": "eq"
+    },
+    {
+      "name": "Floor80",
+      "address": "0x0B75",
+      "value": "0x51",
+      "type": "eq"
+    },
+    {
+      "name": "Floor81",
+      "address": "0x0B75",
+      "value": "0x52",
+      "type": "eq"
+    },
+    {
+      "name": "Floor82",
+      "address": "0x0B75",
+      "value": "0x53",
+      "type": "eq"
+    },
+    {
+      "name": "Floor83",
+      "address": "0x0B75",
+      "value": "0x54",
+      "type": "eq"
+    },
+    {
+      "name": "Floor84",
+      "address": "0x0B75",
+      "value": "0x55",
+      "type": "eq"
+    },
+    {
+      "name": "Floor85",
+      "address": "0x0B75",
+      "value": "0x56",
+      "type": "eq"
+    },
+    {
+      "name": "Floor86",
+      "address": "0x0B75",
+      "value": "0x57",
+      "type": "eq"
+    },
+    {
+      "name": "Floor87",
+      "address": "0x0B75",
+      "value": "0x58",
+      "type": "eq"
+    },
+    {
+      "name": "Floor88",
+      "address": "0x0B75",
+      "value": "0x59",
+      "type": "eq"
+    },
+    {
+      "name": "Floor89",
+      "address": "0x0B75",
+      "value": "0x5A",
+      "type": "eq"
+    },
+    {
+      "name": "Floor90",
+      "address": "0x0B75",
+      "value": "0x5B",
+      "type": "eq"
+    },
+    {
+      "name": "Floor91",
+      "address": "0x0B75",
+      "value": "0x5C",
+      "type": "eq"
+    },
+    {
+      "name": "Floor92",
+      "address": "0x0B75",
+      "value": "0x5D",
+      "type": "eq"
+    },
+    {
+      "name": "Floor93",
+      "address": "0x0B75",
+      "value": "0x5E",
+      "type": "eq"
+    },
+    {
+      "name": "Floor94",
+      "address": "0x0B75",
+      "value": "0x5F",
+      "type": "eq"
+    },
+    {
+      "name": "Floor95",
+      "address": "0x0B75",
+      "value": "0x60",
+      "type": "eq"
+    },
+    {
+      "name": "Floor96",
+      "address": "0x0B75",
+      "value": "0x61",
+      "type": "eq"
+    },
+    {
+      "name": "Floor97",
+      "address": "0x0B75",
+      "value": "0x62",
+      "type": "eq"
+    },
+    {
+      "name": "Floor98",
+      "address": "0x0B75",
+      "value": "0x63",
+      "type": "eq"
+    },
+    {
+      "name": "Blob",
+      "address": "0x421d",
+      "value": "0x1F",
+      "type": "eq",
+      "more": [
+      	{
+          "address" : "0x0B75",
+          "value" : "0x63",
+          "type" : "eq"
+      	}
+      ]
+    }
+  ]
+}
